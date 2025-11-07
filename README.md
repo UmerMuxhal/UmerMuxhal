@@ -32,14 +32,14 @@ My experience includes
 
 <h3 align="left">Core Skill Set</h3>
 
-• Python FastAPI Django  
-• React JavaScript  
-• AWS EC2 Lambda S3 API Gateway RDS VPC CloudWatch IAM  
-• Docker Kubernetes containers  
-• PostgreSQL MongoDB Redis  
-• Microservices event driven architecture  
-• Cloud security CI CD DevOps  
-• AI integration and LLM pipeline development  
+• Python, FastAPI, Django  
+• React, JavaScript  
+• AWS (EC2, Lambda, S3, API Gateway, RDS, VPC, CloudWatch, IAM)  
+• Docker, Kubernetes, container orchestration  
+• PostgreSQL, MongoDB, Redis  
+• Microservices architecture, event driven systems, distributed design  
+• Cloud security, DevOps, CI/CD pipelines  
+• AI integration, automation
 
 <br>
 
