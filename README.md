@@ -7,9 +7,9 @@
 
 <img align="right" alt="Coding GIF" width="420" height="260" src="https://i.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
 
-- I’m currently working on Python FastAPI Django React AWS microservices Docker Cloud Architecture and AI powered systems  
-- I’m learning LLM pipelines distributed systems optimization and serverless AWS patterns  
-- Ask me about Backend Engineering Cloud Infrastructure CI CD and full stack system design  
+- I am focused on building production grade systems using Python, FastAPI, Django, React, AWS, microservices, Docker, and modern cloud architecture with AI powered automation.  
+- I am deepening my expertise in distributed system design, high performance backend optimization, event driven workflows, and advanced serverless patterns across AWS.
+- You can ask me about backend engineering, cloud infrastructure, CI CD automation, and full stack system design for scalable applications.
 - Contact me at **umermuxhal@gmail.com**
 
 <br>
