@@ -89,10 +89,12 @@ A custom GitHub Action I wrote and published on the GitHub Marketplace to automa
 It removes the need to manually package dependencies or write complex scripts inside CI pipelines.
 
 Key capabilities:
-• Publishes AWS Lambda Layers directly from GitHub Actions  
-• Supports versioned Python runtimes  
-• Uploads to S3 and handles permissions  
-• Clean, simple, production ready workflow integration  
+<ul>
+  <li>Publishes AWS Lambda Layers directly from GitHub Actions</li>
+  <li>Supports versioned Python runtimes</li>
+  <li>Uploads to S3 and handles permissions</li>
+  <li>Clean, simple, production ready workflow integration</li>
+</ul>
 
 Marketplace link: https://github.com/marketplace/actions/python-lambda-layer
 
