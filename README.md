@@ -78,6 +78,26 @@ My experience includes
 
 <br>
 
+<h2 align="left">Featured Open Source Project</h2>
+
+<h3>Python Lambda Layer GitHub Action</h3>
+
+[![Static Badge](https://img.shields.io/badge/v1-brightgreen?style=flat-square&logo=python&logoColor=yellow&label=lambda-layer)](https://github.com/UmerMuxhal/python-lambda-layer/tree/v1)
+[![GitHubActions](https://img.shields.io/badge/listed%20on-GitHubActions-blue.svg)](https://github.com/marketplace/actions/python-lambda-layer)
+
+A custom GitHub Action I wrote and published on the GitHub Marketplace to automate the process of publishing AWS Lambda Layers.  
+It removes the need to manually package dependencies or write complex scripts inside CI pipelines.
+
+Key capabilities:
+• Publishes AWS Lambda Layers directly from GitHub Actions  
+• Supports versioned Python runtimes  
+• Uploads to S3 and handles permissions  
+• Clean, simple, production ready workflow integration  
+
+Marketplace link: https://github.com/marketplace/actions/python-lambda-layer
+
+<br>
+
 <h3 align="left">Connect with me</h3>
 <p align="left">
   <a href="https://www.linkedin.com/in/umermuxhal" target="_blank">
