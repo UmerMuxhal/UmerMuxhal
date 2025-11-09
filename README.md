@@ -88,7 +88,7 @@ My experience includes
 A custom GitHub Action I wrote and published on the GitHub Marketplace to automate the process of publishing AWS Lambda Layers.  
 It removes the need to manually package dependencies or write complex scripts inside CI pipelines.
 
-Key capabilities:
+<h4>Key capabilities:</h4>
 <ul>
   <li>Publishes AWS Lambda Layers directly from GitHub Actions</li>
   <li>Supports versioned Python runtimes</li>
