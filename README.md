@@ -32,17 +32,6 @@ I build AI-powered backend systems and cloud infrastructure that replace manual 
 
 ---
 
-## GitHub Stats
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=UmerMuxhal&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UmerMuxhal&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="38%" />
-</p>
-
-<img src="https://streak-stats.demolab.com?user=UmerMuxhal&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" />
-
----
-
 ## Projects
 
 ---
