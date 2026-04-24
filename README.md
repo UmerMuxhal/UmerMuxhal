@@ -1,125 +1,118 @@
-<h1 align="center">Hi, I'm Umer Mughal</h1>
-<h3 align="center">Full Stack Developer and AWS Cloud Engineer</h3>
+# Umer Mughal
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=umermuxhal&label=Profile%20Views&color=0e75b6&style=flat" />
-</p>
+**I build AI-powered backend systems and cloud infrastructure that replace manual workflows, cut operational overhead, and ship to production — not just proof of concept.**
 
-<img align="right" alt="Coding GIF" width="420" height="260" src="https://i.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif">
+6 years of Python and AWS. I've built eDiscovery platforms that enterprises pay $500K/year for, AI scheduling tools that replace weeks of manual planning, and automation engines that run entire sales workflows without a human in the loop. I work across the full backend stack — from database schema to CI/CD pipeline — and I own the result end to end.
 
-- I am focused on building production grade systems using Python, FastAPI, Django, React, AWS, microservices, Docker, and modern cloud architecture with AI powered automation.  
-- I am deepening my expertise in distributed system design, high performance backend optimization, event driven workflows, and advanced serverless patterns across AWS.
-- You can ask me about backend engineering, cloud infrastructure, CI CD automation, and full stack system design for scalable applications.
-- Contact me at **umermuxhal@gmail.com**
+Available for remote roles and freelance engagements.
 
-<br>
+---
 
-<h3 align="left">Experience</h3>
+## What I'm Good At
 
-I work across backend engineering cloud development and full stack systems.  
-My experience includes  
-• Building scalable backend systems with Python FastAPI Django  
-• Designing AWS cloud architectures using EC2 Lambda RDS S3 API Gateway VPC IAM CloudWatch  
-• Building APIs microservices and event driven systems  
-• Docker environments containerization and cloud native workflows  
-• CI CD pipelines with GitHub Actions  
-• SQL and NoSQL databases PostgreSQL MongoDB Redis  
-• Frontend development with React modern UI and state management  
-• Multi tenant SaaS platforms authentication RBAC security patterns  
-• AI integration and LLM workflows inside production applications  
+**Backend & APIs** — FastAPI, Django, Express, SQLAlchemy, Pydantic, REST, WebSockets, Celery
 
-<br>
+**Cloud & DevOps** — AWS (Lambda, EC2, RDS, S3, SQS, API Gateway, CodeArtifact, Secrets Manager), Azure, GCP, Docker, GitHub Actions CI/CD
 
-<h3 align="left">Core Skill Set</h3>
+**Databases** — PostgreSQL, MongoDB, Redis, MySQL, Apache Solr, Qdrant (vector search)
 
-• Python, FastAPI, Django  
-• React, JavaScript  
-• AWS (EC2, Lambda, S3, API Gateway, RDS, VPC, CloudWatch, IAM)  
-• Docker, Kubernetes, container orchestration  
-• PostgreSQL, MongoDB, Redis  
-• Microservices architecture, event driven systems, distributed design  
-• Cloud security, DevOps, CI/CD pipelines  
-• AI integration, automation
+**AI & Automation** — OpenAI, Anthropic Claude, Azure OpenAI, LangChain, RAG pipelines, Celery task queues, multi-LLM orchestration
 
-<br>
+**Auth & Security** — JWT, SAML SSO, MFA (TOTP), JWKS key rotation, RBAC, CSRF, CSP, SOC 2
 
-<h3 align="left">Skill Badges</h3>
+**Frontend** — React, TypeScript, Vite, TanStack Query, Redux Toolkit
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" />
-</p>
+---
 
-<br>
+## Projects Worth Looking At
 
-<h3 align="left">Featured Projects</h3>
+---
 
-<ul>
-  <li><b>Hospital Management SaaS</b>  
-  Multi tenant SaaS built using FastAPI React AWS RDS Docker Authentication Role based access CI CD and monitoring.</li>
-  <br>
-  <li><b>AI Assisted Scheduling Platform</b>  
-  Python FastAPI React AWS LLM integration scalable API design task automation and cloud event workflows.</li>
-  <br>
-  <li><b>Cloud Native Microservices System</b>  
-  Distributed architecture using Docker Kubernetes FastAPI Redis and async event patterns.</li>
-  <br>
-  <li><b>Full Stack ERP Modules</b>  
-  Django PostgreSQL React role based access dashboards reporting and API based architecture.</li>
-</ul>
+### AIDA — AI-Powered Legal Discovery Platform
+*The kind of system law firms pay Relativity $500K/year to access. Built it from scratch.*
 
-<br>
+Enterprise eDiscovery platform with per-case database isolation across three storage engines (PostgreSQL + Apache Solr + Qdrant), 7 LLM providers behind a single abstraction layer, hybrid RAG retrieval fusing keyword and vector search, and SOC 2-certified multi-cloud deployment across AWS, Azure, and on-premise.
 
-<h2 align="left">Featured Open Source Project</h2>
+- **10x reduction** in document review time via ML-driven auto-classification across 100K+ document populations
+- **7 LLM providers** (OpenAI, Anthropic, Gemini, Groq, Bedrock, HuggingFace, self-hosted) abstracted behind a unified generation interface
+- **5 Celery worker queues** partitioned by workload — ML inference, uploads, database ops, review tasks — preventing GPU-heavy jobs from starving time-sensitive workflows
+- **Zero-trust CI/CD** — GitHub Actions dynamically opens and closes Azure NSG SSH rules per deployment, never leaving SSH exposed
 
-<h3>Python Lambda Layer GitHub Action</h3>
+`FastAPI` `React/TypeScript` `PostgreSQL` `Apache Solr` `Qdrant` `Redis` `Celery` `SAML SSO` `Docker` `GitHub Actions` `AWS` `Azure`
 
-[![Static Badge](https://img.shields.io/badge/v1-brightgreen?style=flat-square&logo=python&logoColor=yellow&label=lambda-layer)](https://github.com/UmerMuxhal/python-lambda-layer/tree/v1)
-[![GitHubActions](https://img.shields.io/badge/listed%20on-GitHubActions-blue.svg)](https://github.com/marketplace/actions/python-lambda-layer)
+---
 
-A custom GitHub Action I wrote and published on the GitHub Marketplace to automate the process of publishing AWS Lambda Layers.  
-It removes the need to manually package dependencies or write complex scripts inside CI pipelines.
+### RANA — AI Project Scheduling SaaS
+*Turns a 2-week manual planning process into a single document upload.*
 
-<h4>Key capabilities:</h4>
-<ul>
-  <li>Publishes AWS Lambda Layers directly from GitHub Actions</li>
-  <li>Supports versioned Python runtimes</li>
-  <li>Uploads to S3 and handles permissions</li>
-  <li>Clean, simple, production ready workflow integration</li>
-</ul>
+Multi-tenant SaaS for construction managers and planning consultants. Ingests PDF/DOCX scope documents, runs them through a custom Azure OpenAI pipeline to generate WBS hierarchies, then resolves dependencies via topological sort (Kahn's algorithm) with FS/SS/FF/SF relationship types and working-calendar arithmetic — the same constraint logic as Primavera P6. Full Stripe billing lifecycle, JWKS JWT auth, and bidirectional Primavera P6 Excel import/export.
 
-Marketplace link: https://github.com/marketplace/actions/python-lambda-layer
+- **~80% reduction** in project planning time — minutes instead of weeks
+- Built the scheduling engine from scratch — not wrapped around a library
+- Zero-downtime JWT migration from HS256 static secrets to RS256/ES256 with JWKS key rotation
 
-<br>
+`FastAPI` `React/Vite` `Azure OpenAI` `PostgreSQL` `Stripe` `JWKS JWT` `Syncfusion Gantt` `Render`
 
-<h3 align="left">Connect with me</h3>
-<p align="left">
-  <a href="https://www.linkedin.com/in/umermuxhal" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" />
-  </a>
-</p>
+---
 
-<h3 align="left">Languages and Tools</h3>
-<p align="left">
-  <a href="https://aws.amazon.com/" title="AWS"><img src="https://raw.github.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="40" height="40"/></a>
-  <a href="https://azure.microsoft.com/" title="Azure"><img src="https://raw.github.com/devicons/devicon/master/icons/azure/azure-original.svg" width="40" height="40"/></a>
-  <a href="https://www.python.org/" title="Python"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original-wordmark.svg" width="40" height="40"/></a>
-  <a href="https://www.djangoproject.com/" title="Django"><img src="https://raw.github.com/devicons/devicon/master/icons/django/django-plain-wordmark.svg" width="40" height="40"/></a>
-  <a href="https://fastapi.tiangolo.com/" title="FastAPI"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" width="40" height="40"/></a>
-  <a href="https://www.postgresql.org/" title="PostgreSQL"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="40" height="40"/></a>
-  <a href="https://www.mongodb.com/" title="MongoDB"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="40" height="40"/></a>
-  <a href="https://redis.io/" title="Redis"><img src="https://raw.github.com/devicons/devicon/master/icons/redis/redis-original.svg" width="40" height="40"/></a>
-  <a href="https://www.docker.com/" title="Docker"><img src="https://raw.github.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40" height="40"/></a>
-  <a href="https://kubernetes.io/" title="Kubernetes"><img src="https://raw.github.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg" width="40" height="40"/></a>
-  <a href="https://react.dev/" title="React"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" height="40"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML5"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" width="40" height="40"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS3"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" width="40" height="40"/></a>
-</p>
+### StoreWise — Serverless Retail Collaboration Platform
+*20+ Lambda functions, real-time messaging, and an AI retail assistant — all for distributed retail teams.*
+
+Fully serverless AWS architecture serving multi-tenant retail organizations. Real-time messaging via Pusher presence channels, multi-platform notification fan-out across 6 channels (mobile push, email, SMS, WhatsApp, Viber, Teams), and an AI assistant ("Ella") built on LangChain agents with 6 tools including GPT-4 Vision, DALL·E 3, FAISS vector retrieval, and Square POS integration. Bitwise RBAC encodes 26 permissions as a single integer for O(1) authorization.
+
+- **20+ independently deployable Lambda functions** across 4 environments via differential CI/CD (only modified functions rebuild)
+- **3 shared internal Python packages** distributed via AWS CodeArtifact — consistent standards across the entire function fleet
+- **Sub-second message delivery** to thousands of concurrent users
+
+`AWS Lambda` `API Gateway` `SQS` `CodeArtifact` `Pusher` `MySQL/RDS` `LangChain` `GPT-4` `DALL·E 3` `FAISS` `Firebase Auth`
+
+---
+
+### NurtureFlow AI — Autonomous Sales Engine
+*Replaced a 2-person SDR team. Runs every minute during business hours without anyone touching it.*
+
+Sales automation engine that processes 1,000+ Pipedrive deals across three pipeline stages, generates GPT follow-up emails from actual Gmail conversation history, threads replies into existing conversations via RFC822 header injection, detects responses to reset the nurture sequence, and auto-closes unresponsive deals with loss marking.
+
+- **Follow-up latency from 24–72 hours → under 60 seconds**
+- GPT emails are generated from the last 10 decoded Gmail thread messages — they read like a human wrote them because they reference the actual conversation
+- Full deal lifecycle state machine: first contact → follow-up cadence → reply detection → auto-close — all database-driven, no code changes needed to modify the cadence
+
+`Node.js` `MongoDB` `OpenAI GPT-4o-mini` `Pipedrive SDK` `Gmail API OAuth2` `node-cron`
+
+---
+
+### Direct Peptides — E-Commerce Operations Platform
+*Eliminated 6 separate tools. Reduced daily ops overhead from 3 hours to 30 minutes.*
+
+Full-stack operations platform for a DTC brand processing hundreds of orders monthly. Multi-source order ingestion (Ecwid webhooks + API polling + Google Sheets sync), automated SMS lifecycle via a three-scenario LinQ messaging engine, dual Kanban CRM with cross-entity SQL deduplication running every 5 minutes, NLP-based name extraction from SMS conversations, and one-click USPS batch processing.
+
+- **~85% reduction** in per-order processing time
+- 7,166-line API layer handling order orchestration, messaging, CRM lifecycle, inventory, and webhook processing
+- NLP name extractor parses SMS history against a 130+ word exclusion dictionary to identify customer names without any human tagging
+
+`Express/TypeScript` `React/TypeScript` `Neon PostgreSQL` `Drizzle ORM` `Ecwid API` `LinQ API` `Google Sheets API` `WebSocket`
+
+---
+
+## Open Source
+
+### [Python Lambda Layer — GitHub Action](https://github.com/marketplace/actions/python-lambda-layer)
+
+Published on the GitHub Marketplace. Automates the packaging and publishing of AWS Lambda Layers directly from GitHub Actions — no manual dependency bundling, no complex CI scripts. Supports versioned Python runtimes, S3 upload, and permission handling out of the box.
+
+---
+
+## Currently Working On
+
+Deepening distributed system design patterns — specifically event-driven architectures, high-throughput async pipelines, and advanced serverless patterns on AWS. Also exploring agentic AI workflows where LLMs coordinate multi-step tasks without human checkpoints.
+
+---
+
+## Let's Talk
+
+I'm open to **remote full-time roles** and **freelance engagements** — particularly around AI-powered backends, cloud infrastructure, and automation systems.
+
+**Email:** umermuxhal@gmail.com
+**LinkedIn:** [linkedin.com/in/umermuxhal](https://linkedin.com/in/umermuxhal)
+
+If you need someone who can own the full backend stack, make hard architectural decisions under real constraints, and ship systems that handle actual production load — reach out.
