@@ -34,8 +34,6 @@ I build AI-powered backend systems and cloud infrastructure that replace manual 
 
 ## Projects
 
----
-
 ### AIDA — AI-Powered Legal Discovery Platform
 
 *The kind of system law firms pay Relativity $500K/year to access. Built it from scratch.*
