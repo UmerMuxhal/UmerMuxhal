@@ -1,6 +1,5 @@
 <img src="https://komarev.com/ghpvc/?username=UmerMuxhal&style=flat-square&color=00B4D8&label=Profile+Views" />
 &nbsp;
-<img src="https://img.shields.io/badge/Open%20to%20Remote%20%26%20Freelance-00B4D8?style=flat-square&logoColor=white" />
 
 <br />
 
