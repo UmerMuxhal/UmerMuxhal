@@ -1,151 +1,72 @@
-<img src="https://komarev.com/ghpvc/?username=UmerMuxhal&style=flat-square&color=00B4D8&label=Profile+Views" />
-&nbsp;
-
-<br />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=00B4D8&width=620&lines=Python+%26+AWS+Engineer+%7C+6+Years;AI+Systems+%7C+Cloud+Infrastructure;FastAPI+%7C+Lambda+%7C+PostgreSQL+%7C+Redis;Building+things+that+ship+to+production" alt="Typing SVG" />
-
 # Umer Mughal
 
-I build AI-powered backend systems and cloud infrastructure that replace manual workflows, cut operational overhead, and ship to production. Not just proof of concept.
+## Senior Python Backend Engineer
 
-6 years of Python and AWS. I've built eDiscovery platforms that enterprises pay $500K/year for, AI scheduling tools that replace weeks of manual planning, and automation engines that run entire sales workflows without a human in the loop. I work across the full backend stack from database schema to CI/CD pipeline and I own the result end to end.
+I build Python backends and AWS serverless systems for SaaS products, with a focus on event-driven workflows and practical AI integrations. I’m based in Islamabad, Pakistan.
 
-**Available for remote roles and freelance engagements.**
+My work spans API development, database design, authentication, background processing, CI/CD and cloud deployment. I use React and TypeScript when a project needs frontend delivery.
 
----
+[Portfolio and engineering case studies](https://umer.fuhzion.com/) | [LinkedIn](https://www.linkedin.com/in/umermuxhal/) | [Upwork](https://www.upwork.com/freelancers/~01a3c8737b58ec3b49)
 
-## What I Work With
+## Backend work I take on
 
-**Backend and APIs** &nbsp; FastAPI · Django · Express · SQLAlchemy · Pydantic · Celery · WebSockets
+- **Python APIs and SaaS backends:** FastAPI, PostgreSQL, Redis, authentication, role-based access and subscription integrations.
+- **AWS serverless and event-driven systems:** Lambda, API Gateway, SQS, SNS, S3, retries, duplicate handling and failure visibility.
+- **AI workflow integration:** OpenAI and Azure OpenAI APIs, structured output validation, persisted jobs and human review.
+- **Delivery:** Docker, GitHub Actions and cloud deployment. Supporting React and TypeScript delivery where useful.
 
-**Cloud and DevOps** &nbsp; AWS (Lambda · EC2 · RDS · S3 · SQS · API Gateway · CodeArtifact · Secrets Manager) · Azure · GCP · Docker · GitHub Actions
+## Selected engineering work
 
-**Databases** &nbsp; PostgreSQL · MongoDB · Redis · MySQL · Apache Solr · Qdrant
+### SignalDesk workflow demo
 
-**AI and Automation** &nbsp; OpenAI · Anthropic Claude · Azure OpenAI · LangChain · RAG pipelines · multi-LLM orchestration
+A personal FastAPI demo with persisted jobs, duplicate prevention, bounded retries, schema validation, human review and event-history export. Built with Python, FastAPI, SQLite and Docker.
 
-**Auth and Security** &nbsp; JWT · SAML SSO · MFA (TOTP) · JWKS key rotation · RBAC · CSRF · CSP · SOC 2
+The walkthrough uses synthetic data and deterministic sample rules. The optional OpenAI adapter was tested with mocked responses; live model behavior remains unverified.
 
-**Frontend** &nbsp; React · TypeScript · Vite · TanStack Query · Redux Toolkit
+[Case study, walkthrough and engineering notes](https://umer.fuhzion.com/projects/signaldesk)
 
----
+### Plan Analytics / RANA 3
 
-## Projects
+I implemented FastAPI document processing with Azure OpenAI, Python dependency scheduling, JWT authentication using JWKS, Stripe subscriptions and Excel import/export, with supporting React and TypeScript delivery.
 
-### AIDA — AI-Powered Legal Discovery Platform
+The scheduling logic handles dependency relationships, lag calculations and working calendars separately from document interpretation. This is historical work; I no longer have access to the platform.
 
-*The kind of system law firms pay Relativity $500K/year to access. Built it from scratch.*
+[Scheduling SaaS case study](https://umer.fuhzion.com/projects/scheduling-saas)
 
-Enterprise eDiscovery platform with per-case database isolation across three storage engines (PostgreSQL + Apache Solr + Qdrant), 7 LLM providers behind a single abstraction layer, hybrid RAG retrieval fusing keyword and vector search, and SOC 2-certified multi-cloud deployment across AWS, Azure, and on-premise.
+### AWS retail messaging and task workflows
 
-| Impact | Detail |
-|---|---|
-| 10x faster document review | ML-driven auto-classification across 100K+ document populations |
-| 7 LLM providers unified | OpenAI, Anthropic, Gemini, Groq, Bedrock, HuggingFace, self-hosted behind one interface |
-| 5 Celery worker queues | ML inference, uploads, database ops, review tasks, each isolated |
-| Zero-trust CI/CD | GitHub Actions dynamically opens and closes Azure NSG SSH rules per deployment |
+As a backend engineer within a wider team, I contributed Python services to an AWS retail backend. My work included independently deployable Lambda functions, shared Python packages through AWS CodeArtifact, role-based access and queued notifications using SQS and SNS.
 
-`FastAPI` `React/TypeScript` `PostgreSQL` `Apache Solr` `Qdrant` `Redis` `Celery` `SAML SSO` `Docker` `AWS` `Azure`
+Delivery of the wider platform was a team responsibility. This is historical professional work; confidential source code and operational data are not shared.
 
----
+[AWS backend case study](https://umer.fuhzion.com/projects/serverless-collaboration)
 
-### RANA — AI Project Scheduling SaaS
+### BabyMedics hospital operations
 
-*Turns a 2-week manual planning process into a single document upload.*
+I implemented FastAPI endpoints for hospital registration, appointments, admissions and billing, with PostgreSQL transaction boundaries and role-based access. I also contributed to the React and TypeScript interface.
 
-Multi-tenant SaaS for construction managers and planning consultants. Ingests PDF/DOCX scope documents, runs them through a custom Azure OpenAI pipeline to generate WBS hierarchies, then resolves dependencies via topological sort (Kahn's algorithm) with FS/SS/FF/SF relationship types and working-calendar arithmetic matching the constraint logic of Primavera P6. Full Stripe billing lifecycle, JWKS JWT auth, and bidirectional Primavera P6 Excel import/export.
+This is a historical implementation summary. Private source code and patient or operational data are not shared.
 
-| Impact | Detail |
-|---|---|
-| ~80% planning time reduction | Minutes instead of weeks |
-| Custom scheduling engine | Topological sort with 4 dependency types, built from scratch |
-| Zero-downtime JWT migration | HS256 static secrets to RS256/ES256 with JWKS key rotation |
-| Full Stripe billing lifecycle | Checkout, webhooks, real-time tenant role sync on subscription changes |
+[Healthcare backend case study](https://umer.fuhzion.com/projects/babymedics)
 
-`FastAPI` `React/Vite` `Azure OpenAI` `PostgreSQL` `Stripe` `JWKS JWT` `Syncfusion Gantt` `Render`
+### Python Lambda Layer GitHub Action
 
----
+I published an action that installs Python dependencies, packages a layer, uploads it to S3 and publishes a Lambda Layer version.
 
-### StoreWise — Serverless Retail Collaboration Platform
+This is historical open-source tooling. Review its runtime compatibility, action versions and layer-sharing permissions before use. Current maintenance and modern runtime compatibility have not been established.
 
-*20+ Lambda functions, real-time messaging, and an AI retail assistant built for distributed retail teams.*
+[GitHub Marketplace](https://github.com/marketplace/actions/python-lambda-layer) | [Implementation notes and source link](https://umer.fuhzion.com/projects/lambda-layer-action)
 
-Fully serverless AWS architecture serving multi-tenant retail organizations. Real-time messaging via Pusher, multi-platform notification fan-out across 6 channels (mobile push, email, SMS, WhatsApp, Viber, Teams), and an AI assistant built on LangChain agents with 6 tools including GPT-4 Vision, DALL-E 3, FAISS vector retrieval, and Square POS integration. Bitwise RBAC encodes 26 permissions as a single integer for O(1) authorization.
+## Additional experience
 
-| Impact | Detail |
-|---|---|
-| 20+ Lambda functions | Independently deployable across 4 environments via differential CI/CD |
-| 3 internal Python packages | Distributed via AWS CodeArtifact for consistent standards across the fleet |
-| Sub-second message delivery | Thousands of concurrent users via Pusher presence channels |
-| 6 notification channels | Mobile push, email, SMS, WhatsApp, Viber, Teams in a unified pipeline |
+My backend work also includes fintech payment workflows, legal document intelligence, SAML SSO integrations and CRM email automation. I distinguish personal demos from client and employer work, and my contributions from wider team delivery.
 
-`AWS Lambda` `API Gateway` `SQS` `CodeArtifact` `Pusher` `MySQL/RDS` `LangChain` `GPT-4` `DALL-E 3` `FAISS` `Firebase Auth`
+## Work with me
 
----
+I’m interested in contract and part-time engineering engagements, followed by suitable remote senior Python backend and AWS roles.
 
-### NurtureFlow AI — Autonomous Sales Engine
+Send the problem, your current stack and the engagement you have in mind.
 
-*Replaced a 2-person SDR team. Runs every minute during business hours without anyone touching it.*
-
-Sales automation engine processing 1,000+ Pipedrive deals across three pipeline stages. Generates GPT follow-up emails from actual Gmail conversation history, threads replies via RFC822 header injection, detects responses to reset the nurture sequence, and auto-closes unresponsive deals with loss marking.
-
-| Impact | Detail |
-|---|---|
-| 24-72 hours to under 60 seconds | Follow-up latency via minute-level cron scheduling |
-| 2-person SDR workflow replaced | Fully autonomous pipeline with no human checkpoints |
-| Context-aware GPT emails | Generated from the last 10 decoded Gmail thread messages |
-| Database-driven state machine | Modify the follow-up cadence without touching code |
-
-`Node.js` `MongoDB` `OpenAI GPT-4o-mini` `Pipedrive SDK` `Gmail API OAuth2` `node-cron`
-
----
-
-### Direct Peptides — E-Commerce Operations Platform
-
-*Eliminated 6 separate tools. Reduced daily ops overhead from 3 hours to 30 minutes.*
-
-Full-stack operations platform for a DTC brand processing hundreds of orders monthly. Multi-source order ingestion (Ecwid webhooks + API polling + Google Sheets sync), automated SMS lifecycle via a three-scenario LinQ messaging engine, dual Kanban CRM with cross-entity SQL deduplication running every 5 minutes, and one-click USPS batch processing.
-
-| Impact | Detail |
-|---|---|
-| ~85% order processing time reduction | Batch selection, auto-USPS CSV generation, inline tracking |
-| 6 tools consolidated into one | Sheets, Ecwid dashboard, texting, CRM, inventory, all replaced |
-| NLP name extractor | Parses SMS history against a 130+ word exclusion dictionary |
-| 7,166-line API layer | Order orchestration, messaging, CRM lifecycle, inventory, webhooks |
-
-`Express/TypeScript` `React/TypeScript` `Neon PostgreSQL` `Drizzle ORM` `Ecwid API` `LinQ API` `Google Sheets API` `WebSocket`
-
----
-
-## Open Source
-
-### Python Lambda Layer — GitHub Action
-
-[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Python%20Lambda%20Layer-00B4D8?style=flat-square&logo=github&logoColor=white)](https://github.com/marketplace/actions/python-lambda-layer)
-
-Published on the GitHub Marketplace. Automates packaging and publishing of AWS Lambda Layers directly from GitHub Actions. No manual dependency bundling, no complex CI scripts. Supports versioned Python runtimes, S3 upload, and permission handling out of the box.
-
----
-
-## Contribution Activity
-
-<img src="https://raw.githubusercontent.com/UmerMuxhal/UmerMuxhal/output/github-contribution-grid-snake-dark.svg" />
-
----
-
-## Currently Working On
-
-Deepening distributed system design patterns: event-driven architectures, high-throughput async pipelines, and advanced serverless patterns on AWS. Also exploring agentic AI workflows where LLMs coordinate multi-step tasks without human checkpoints.
-
----
-
-## Let's Talk
-
-I'm open to remote full-time roles and freelance engagements, particularly around AI-powered backends, cloud infrastructure, and automation systems.
-
-**Email** &nbsp; umermuxhal@gmail.com
-
-**LinkedIn** &nbsp; [linkedin.com/in/umermuxhal](https://www.linkedin.com/in/umermuxhal)
-
-If you need someone who can own the full backend stack, make hard architectural decisions under real constraints, and ship systems that handle actual production load, reach out.
+- Portfolio: [umer.fuhzion.com](https://umer.fuhzion.com/)
+- LinkedIn: [Umer Mughal](https://www.linkedin.com/in/umermuxhal/)
+- Email: [umermuxhal@gmail.com](mailto:umermuxhal@gmail.com)
